@@ -1,0 +1,14 @@
+REM Stable ssh login and file transfer
+DELAY 1000
+HOTKEY GUI R
+DELAY 700
+STRING cmd
+PRESS ENTER
+DELAY 1000
+STRING scp receipt.pdf root@<ipaddress>:/tmp
+PRESS ENTER
+DELAY 2000
+STRING password
+PRESS ENTER
+DELAY 2000
+STRING DONE FILE TRANSFER ;)
