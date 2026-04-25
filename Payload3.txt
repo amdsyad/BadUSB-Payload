@@ -1,0 +1,10 @@
+REM Description: code will open a bowser and show the windows breakdown image in full screen mode
+
+DELAY 500
+HOTKEY GUI R
+DELAY 500
+STRING https://upload.wikimedia.org/wikipedia/commons/5/56/Bsodwindows10.png
+PRESS ENTER
+DELAY 500
+PRESS F11
+DELAY 500
